@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+      scroll-behavior: smooth;
+
+}
+
 body {
     margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -32,8 +37,8 @@ img {
     width: 100%;
     height: 100vh;
     
-    background-color: #3a75c4;
-    background-image: url(./../img/header/zan-ilic-0WzeC6JtbHU-unsplash\ .jpg);
+    /* background-color: #3a75c4; */
+    /* background-image: url(./../img/header/zan-ilic-0WzeC6JtbHU-unsplash\ .jpg); */
     background-size: cover;
     background-position: center;
     /* Определяем модель flex-box для блока .header */
@@ -60,16 +65,16 @@ img {
     color: #fff;
 }
 
-.header-arow {
+
+.header-arrow {
     width: 48px;
     height: 48px;
-    
-    
     position: absolute;
     bottom: 30px;
     left: 50%;
     transform: translate(-50%, 0);
 }
+
 
 
 
